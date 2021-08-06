@@ -1,3 +1,20 @@
+# Configuração do Projeto
+Digitar os seguintes comando na pasta do projeto, para instalar as bibliotecas necessárias:
+
+```
+npm install react-router-dom
+npm install @apollo/client
+npm install graphql
+npm install styled-components
+npm install normalize.css
+npm install react-markdown
+npm install date-fns
+npm install apollo-link-context
+```
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
