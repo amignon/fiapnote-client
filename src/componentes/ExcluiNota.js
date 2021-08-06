@@ -11,7 +11,7 @@ const ExcluiNota = props => {
     variables: {
       id: props.notaId
     },
-    refetchQueries: [{ query: OBTER_MINHAS_NOTAS, OBTER_NOTAS }],
+    refetchQueries: [{ query: OBTER_MINHAS_NOTAS } , { query: OBTER_NOTAS }],
     onCompleted: data => {
       props.history.push('/minhasNotas');
     }

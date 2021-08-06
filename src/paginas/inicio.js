@@ -10,6 +10,7 @@ const Inicio = () => {
 
   if (loading) return <p>Carregando...</p>;
   if (error) return <p>Erro!</p>;
+  if (data.notas.length === 0) return <p>Nenhuma nota cadastrada.</p>
   return (
     <ListaNotas notas={data.notas} />
   );
